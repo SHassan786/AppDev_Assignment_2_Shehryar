@@ -11,7 +11,7 @@ class LoginPage extends StatelessWidget {
         child: Column(
           children: <Widget>[
             AspectRatio(
-              aspectRatio: 17.0 / 19.0,
+              aspectRatio: 16.0 / 17.0,
               child: Image.asset('assets/asset1.jpg'),
             ),
             SizedBox(
@@ -91,7 +91,7 @@ class LoginPage extends StatelessWidget {
                             const Text("Don't have an account?"),
                             TextButton(
                                 onPressed: () {
-                                  print('Hello');
+                                  Navigator.pushNamed(context, '/signup');
                                 },
                                 child: const Text("Sign Up")),
                           ],
