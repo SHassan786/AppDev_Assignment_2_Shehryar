@@ -6,13 +6,13 @@ class SignUpPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 247, 247, 247),
+      // backgroundColor: const Color.fromARGB(255, 247, 247, 247),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             AspectRatio(
-              aspectRatio: 17.0 / 19.0,
-              child: Image.asset('assets/asset2.jpg'),
+              aspectRatio: 18.0 / 20.0,
+              child: Image.asset('assets/2.png'),
             ),
             SizedBox(
               width: 320,

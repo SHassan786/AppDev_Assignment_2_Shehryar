@@ -1,4 +1,3 @@
-import 'package:assignment2/signuppage.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatelessWidget {
@@ -7,13 +6,13 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 247, 247, 247),
+      // backgroundColor: const Color.fromARGB(255, 247, 247, 247),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             AspectRatio(
-              aspectRatio: 17.0 / 19.0,
-              child: Image.asset('assets/asset1.jpg'),
+              aspectRatio: 18.0 / 20.0,
+              child: Image.asset('assets/1.png'),
             ),
             SizedBox(
               width: 320,
