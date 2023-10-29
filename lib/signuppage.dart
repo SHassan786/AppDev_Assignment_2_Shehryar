@@ -33,10 +33,17 @@ class SignUpPage extends StatelessWidget {
                     padding: EdgeInsets.all(8.0),
                     child: TextField(
                       decoration: InputDecoration(
-                        border: OutlineInputBorder(),
+                        border: OutlineInputBorder(
+                          borderRadius: BorderRadius.all(
+                            Radius.circular(15),
+                          ),
+                        ),
                         focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(
                             color: Color.fromARGB(255, 118, 93, 194),
+                          ),
+                          borderRadius: BorderRadius.all(
+                            Radius.circular(15),
                           ),
                         ),
                         labelText: 'Email',
@@ -51,10 +58,17 @@ class SignUpPage extends StatelessWidget {
                           padding: EdgeInsets.all(8.0),
                           child: TextField(
                             decoration: InputDecoration(
-                              border: OutlineInputBorder(),
+                              border: OutlineInputBorder(
+                                borderRadius: BorderRadius.all(
+                                  Radius.circular(15),
+                                ),
+                              ),
                               focusedBorder: OutlineInputBorder(
                                 borderSide: BorderSide(
                                   color: Color.fromARGB(255, 118, 93, 194),
+                                ),
+                                borderRadius: BorderRadius.all(
+                                  Radius.circular(15),
                                 ),
                               ),
                               labelText: 'Password',
@@ -68,10 +82,17 @@ class SignUpPage extends StatelessWidget {
                           padding: EdgeInsets.all(8.0),
                           child: TextField(
                             decoration: InputDecoration(
-                              border: OutlineInputBorder(),
+                              border: OutlineInputBorder(
+                                borderRadius: BorderRadius.all(
+                                  Radius.circular(15),
+                                ),
+                              ),
                               focusedBorder: OutlineInputBorder(
                                 borderSide: BorderSide(
                                   color: Color.fromARGB(255, 118, 93, 194),
+                                ),
+                                borderRadius: BorderRadius.all(
+                                  Radius.circular(15),
                                 ),
                               ),
                               labelText: 'Confirm Password',

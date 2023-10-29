@@ -1,3 +1,4 @@
+import 'package:assignment2/signuppage.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatelessWidget {
@@ -11,7 +12,7 @@ class LoginPage extends StatelessWidget {
         child: Column(
           children: <Widget>[
             AspectRatio(
-              aspectRatio: 16.0 / 17.0,
+              aspectRatio: 17.0 / 19.0,
               child: Image.asset('assets/asset1.jpg'),
             ),
             SizedBox(
@@ -30,31 +31,54 @@ class LoginPage extends StatelessWidget {
                     ),
                   ),
                   const Padding(
-                    padding: EdgeInsets.all(8.0),
-                    child: TextField(
-                      decoration: InputDecoration(
-                        border: OutlineInputBorder(),
-                        focusedBorder: OutlineInputBorder(
-                          borderSide: BorderSide(
-                            color: Color.fromARGB(255, 118, 93, 194),
+                    padding: EdgeInsets.fromLTRB(8, 4, 8, 4),
+                    child: SizedBox(
+                      height: 55,
+                      child: TextField(
+                        decoration: InputDecoration(
+                          border: OutlineInputBorder(
+                            borderRadius: BorderRadius.all(
+                              Radius.circular(15),
+                            ),
                           ),
+                          focusedBorder: OutlineInputBorder(
+                            borderSide: BorderSide(
+                              color: Color.fromARGB(255, 118, 93, 194),
+                            ),
+                            borderRadius: BorderRadius.all(
+                              Radius.circular(15),
+                            ),
+                          ),
+                          labelText: 'Username',
                         ),
-                        labelText: 'Username',
                       ),
                     ),
                   ),
                   const Padding(
-                    padding: EdgeInsets.fromLTRB(8, 20, 8, 8),
-                    child: TextField(
-                      obscureText: true,
-                      decoration: InputDecoration(
-                        border: OutlineInputBorder(),
-                        focusedBorder: OutlineInputBorder(
-                          borderSide: BorderSide(
-                            color: Color.fromARGB(255, 118, 93, 194),
+                    padding: EdgeInsets.fromLTRB(8, 10, 8, 8),
+                    child: SizedBox(
+                      height: 55,
+                      child: TextField(
+                        obscureText: true,
+                        decoration: InputDecoration(
+                          border: OutlineInputBorder(
+                            borderRadius: BorderRadius.all(
+                              Radius.circular(15),
+                            ),
+                            borderSide: BorderSide(
+                              color: Color.fromARGB(255, 118, 93, 194),
+                            )
                           ),
+                          focusedBorder: OutlineInputBorder(
+                            borderSide: BorderSide(
+                              color: Color.fromARGB(255, 118, 93, 194),
+                            ),
+                            borderRadius: BorderRadius.all(
+                              Radius.circular(15),
+                            ),
+                          ),
+                          labelText: 'Password',
                         ),
-                        labelText: 'Password',
                       ),
                     ),
                   ),
