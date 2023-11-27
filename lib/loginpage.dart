@@ -7,12 +7,13 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       // backgroundColor: const Color.fromARGB(255, 247, 247, 247),
+      backgroundColor: Theme.of(context).colorScheme.background,
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             AspectRatio(
               aspectRatio: 18.0 / 20.0,
-              child: Image.asset('assets/1.png'),
+              child: Image.asset('assets/2.png'),
             ),
             SizedBox(
               width: 320,

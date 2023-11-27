@@ -12,7 +12,7 @@ class SignUpPage extends StatelessWidget {
           children: <Widget>[
             AspectRatio(
               aspectRatio: 18.0 / 20.0,
-              child: Image.asset('assets/2.png'),
+              child: Image.asset('assets/1.png'),
             ),
             SizedBox(
               width: 320,
